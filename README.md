@@ -63,8 +63,6 @@ cargo run
 - **Gravity**: The gravitational constant `g` can be modified within the `Pendulum` struct.
 - **Mass**: Although mass (`m`) is part of the pendulum struct, it is currently not used in calculations. Feel free to modify the physics by incorporating the mass in the equations if desired.
 
-## Future Improvements
+## Preview
 
-- **Collision Detection**: Add interactions between the two pendulums.
-- **User Interactions**: Implement controls for adjusting pendulum properties in real-time.
-- **Advanced Physics**: Introduce damping or external forces.
+![Screenshot 2024-10-06 at 17 46 45](https://github.com/user-attachments/assets/2edb9e37-3998-4cbe-8cea-db102c5a9e2a)
