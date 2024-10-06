@@ -5,7 +5,8 @@ use speedy2d::Graphics2D;
 use crate::pendulum::Pendulum;
 
 pub struct MyWindowHandler {
-  pub(crate) p: Pendulum
+  pub(crate) p: Pendulum,
+  pub(crate) p2: Pendulum,
 }
 
 impl WindowHandler for MyWindowHandler {
@@ -14,6 +15,9 @@ impl WindowHandler for MyWindowHandler {
 
         self.p.update();
         self.p.draw(graphics);
+
+        self.p2.update();
+        self.p2.draw(graphics);
 
         helper.request_redraw();
     }
